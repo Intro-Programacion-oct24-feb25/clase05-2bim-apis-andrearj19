@@ -19,10 +19,14 @@ public class Ejemplo03 {
         int numeroElementos= 20;
         int limite= 100;
        int []valores = obtenerValores(numeroElementos, limite);
-       for (int i = 0 ; i<valores.length;i++)
-           System.out.printf("%d\n", valores[i]);
+      
                   
 
+          presentarDatos(valores);
+    }
+    public static void presentarDatos(int[]v){
+         for (int i = 0 ; i<v.length;i++)
+           System.out.printf("%d\n", v[i]);
     }
     
     public static int[] obtenerValores(int a, int b) {
