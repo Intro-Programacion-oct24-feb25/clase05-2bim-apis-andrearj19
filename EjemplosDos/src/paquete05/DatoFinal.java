@@ -10,17 +10,32 @@ package paquete05;
  * @author reroes
  */
 public class DatoFinal {
-    
-    public static double obtenerPromedio(double[] n){
-        
+
+    public static double obtenerPromedio(double[] n) {
+
         double suma = 0;
         double promedio;
-        
+
         for (int i = 0; i < n.length; i++) {
             suma = suma + n[i];
         }
-        
+
         promedio = suma / n.length;
         return promedio;
     }
+
+    public static double obtenerMejorNota(double[] o) {
+        double mNota = 0;
+        for (int i = 0; i < o.length; i++) {
+            if (mNota < o[i]) {
+                if (mNota > o[i]) {
+                    
+                }
+            }
+        }
+    
+    return mNota ;
+
+}
+
 }
